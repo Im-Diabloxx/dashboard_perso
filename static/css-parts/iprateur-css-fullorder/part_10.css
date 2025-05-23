@@ -1,0 +1,2000 @@
+  border: 4px solid var(--blue-opaque);
+  border-radius: 0;
+  color: var(--blue-opaque)
+}
+
+.message.is-admin-secondary-light.is-alt .message-header {
+  background-color: transparent;
+  color: var(--blue-opaque);
+  font-weight: bold
+}
+
+.message.is-admin-secondary-light.is-alt .message-body {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--blue-opaque)
+}
+
+.message.is-admin-secondary-dark.is-alt {
+  background-color: transparent;
+  border: 4px solid var(--blue-opaque);
+  border-radius: 0;
+  color: var(--blue-opaque)
+}
+
+.message.is-admin-secondary-dark.is-alt .message-header {
+  background-color: transparent;
+  color: var(--blue-opaque);
+  font-weight: bold
+}
+
+.message.is-admin-secondary-dark.is-alt .message-body {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--blue-opaque)
+}
+
+.notification {
+  background-color: var(--iprateur-color-text);
+  color: #000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, .1);
+  border-left: 8px solid var(--section)
+}
+
+.notification .media {
+  align-items: center
+}
+
+.notification.is-danger {
+  border-left: 8px solid #c00;
+  color: #c00 !important
+}
+
+.notification.is-danger .media-left .icon {
+  color: #c00;
+  display: block;
+  background-image: url("/assets/svgicons/error-red.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+}
+
+.notification.is-danger .media-left .icon svg {
+  display: none
+}
+
+.notification.is-success {
+  border-left: 8px solid #21bf26
+}
+
+.notification.is-success .media-left .icon {
+  color: #21bf26;
+  display: block;
+  background-image: url("/assets/svgicons/check-green.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+}
+
+.notification.is-success .media-left .icon svg {
+  display: none
+}
+
+.notification.is-primary.is-alt {
+  background-color: transparent;
+  border: 4px solid #c00;
+  border-radius: 0;
+  color: #c00
+}
+
+.notification.is-secondary-light.is-alt {
+  background-color: transparent;
+  border: 4px solid var(--iprateur-color-text);
+  border-radius: 0;
+  color: var(--iprateur-color-text)
+}
+
+.notification.is-secondary-dark.is-alt {
+  background-color: transparent;
+  border: 4px solid #000;
+  border-radius: 0;
+  color: #000
+}
+
+.notification.is-admin-primary.is-alt {
+  background-color: transparent;
+  border: 4px solid #ff4d4d;
+  border-radius: 0;
+  color: #ff4d4d
+}
+
+.notification.is-admin-secondary-light.is-alt {
+  background-color: transparent;
+  border: 4px solid var(--blue-opaque);
+  border-radius: 0;
+  color: var(--blue-opaque)
+}
+
+.notification.is-admin-secondary-dark.is-alt {
+  background-color: transparent;
+  border: 4px solid var(--blue-opaque);
+  border-radius: 0;
+  color: var(--blue-opaque)
+}
+
+@media(max-width: 768px) {
+  .notification {
+    max-width: 100% !important;
+    width: 100%;
+    padding: 1rem !important
+  }
+}
+
+.is-justified {
+  text-align: justify
+}
+
+.m-0 {
+  margin: 0 !important
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0 !important
+}
+
+.mr-0,
+.mx-0 {
+  margin-right: 0 !important
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important
+}
+
+.ml-0,
+.mx-0 {
+  margin-left: 0 !important
+}
+
+.m-1 {
+  margin: .25rem !important
+}
+
+.mt-1,
+.my-1 {
+  margin-top: .25rem !important
+}
+
+.mr-1,
+.mx-1 {
+  margin-right: .25rem !important
+}
+
+.mb-1,
+.my-1 {
+  margin-bottom: .25rem !important
+}
+
+.ml-1,
+.mx-1 {
+  margin-left: .25rem !important
+}
+
+.m-2 {
+  margin: .5rem !important
+}
+
+.mt-2,
+.my-2 {
+  margin-top: .5rem !important
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: .5rem !important
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: .5rem !important
+}
+
+.ml-2,
+.mx-2 {
+  margin-left: .5rem !important
+}
+
+.m-3 {
+  margin: 1rem !important
+}
+
+.mt-3,
+.my-3 {
+  margin-top: 1rem !important
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important
+}
+
+.ml-3,
+.mx-3 {
+  margin-left: 1rem !important
+}
+
+.m-4 {
+  margin: 1.5rem !important
+}
+
+.mt-4,
+.my-4 {
+  margin-top: 1.5rem !important
+}
+
+.mr-4,
+.mx-4 {
+  margin-right: 1.5rem !important
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important
+}
+
+.ml-4,
+.mx-4 {
+  margin-left: 1.5rem !important
+}
+
+.m-5 {
+  margin: 3rem !important
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 3rem !important
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 3rem !important
+}
+
+.ml-5,
+.mx-5 {
+  margin-left: 3rem !important
+}
+
+.m-auto {
+  margin: auto !important
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto !important
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto !important
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important
+}
+
+.p-0 {
+  padding: 0 !important
+}
+
+.pt-0,
+.py-0 {
+  padding-top: 0 !important
+}
+
+.pr-0,
+.px-0 {
+  padding-right: 0 !important
+}
+
+.pb-0,
+.py-0 {
+  padding-bottom: 0 !important
+}
+
+.pl-0,
+.px-0 {
+  padding-left: 0 !important
+}
+
+.p-1 {
+  padding: .25rem !important
+}
+
+.pt-1,
+.py-1 {
+  padding-top: .25rem !important
+}
+
+.pr-1,
+.px-1 {
+  padding-right: .25rem !important
+}
+
+.pb-1,
+.py-1 {
+  padding-bottom: .25rem !important
+}
+
+.pl-1,
+.px-1 {
+  padding-left: .25rem !important
+}
+
+.p-2 {
+  padding: .5rem !important
+}
+
+.pt-2,
+.py-2 {
+  padding-top: .5rem !important
+}
+
+.pr-2,
+.px-2 {
+  padding-right: .5rem !important
+}
+
+.pb-2,
+.py-2 {
+  padding-bottom: .5rem !important
+}
+
+.pl-2,
+.px-2 {
+  padding-left: .5rem !important
+}
+
+.p-3 {
+  padding: 1rem !important
+}
+
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important
+}
+
+.pr-3,
+.px-3 {
+  padding-right: 1rem !important
+}
+
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important
+}
+
+.pl-3,
+.px-3 {
+  padding-left: 1rem !important
+}
+
+.p-4 {
+  padding: 1.5rem !important
+}
+
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important
+}
+
+.pr-4,
+.px-4 {
+  padding-right: 1.5rem !important
+}
+
+.pb-4,
+.py-4 {
+  padding-bottom: 1.5rem !important
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important
+}
+
+.p-5 {
+  padding: 3rem !important
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important
+}
+
+.pr-5,
+.px-5 {
+  padding-right: 3rem !important
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important
+}
+
+.pl-5,
+.px-5 {
+  padding-left: 3rem !important
+}
+
+.p-auto {
+  padding: auto !important
+}
+
+.pt-auto,
+.py-auto {
+  padding-top: auto !important
+}
+
+.pr-auto,
+.px-auto {
+  padding-right: auto !important
+}
+
+.pb-auto,
+.py-auto {
+  padding-bottom: auto !important
+}
+
+.pl-auto,
+.px-auto {
+  padding-left: auto !important
+}
+
+ul.dotted {
+  list-style-type: disc;
+  list-style-position: inside
+}
+
+.b-checkbox.checkbox.is-valigned-top {
+  align-items: flex-start
+}
+
+th.actions,
+td.actions {
+  width: 1px;
+  white-space: nowrap
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-link,
+.pagination-ellipsis {
+  border-radius: 0px
+}
+
+.editable-field {
+  transition: all 300ms
+}
+
+.editable-field span {
+  background: #f8f8f8;
+  border: 1px solid #e4e4e4;
+  vertical-align: top;
+  margin-left: 2px;
+  border-radius: 2px;
+  font-weight: bold;
+  transition: all 300ms;
+  font-size: .8em;
+  cursor: pointer;
+  padding: 0 3px 1px
+}
+
+.editable-field span svg {
+  color: #969696
+}
+
+.editable-field:hover {
+  color: #c00;
+  cursor: pointer
+}
+
+.editable-field:hover span {
+  background: #c00;
+  border: 1px solid #c00
+}
+
+.editable-field:hover span svg {
+  color: var(--iprateur-color-text)
+}
+
+.notices .toast {
+  border-radius: 10px !important
+}
+
+.modal-card-foot {
+  justify-content: flex-end
+}
+
+.float-left {
+  float: left
+}
+
+.float-right {
+  float: right
+}
+
+.is-noscroll {
+  position: fixed;
+  overflow-y: hidden;
+  width: 100%;
+  bottom: 0
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+.fadeOutDown {
+  animation-name: fadeOutDown
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0)
+  }
+}
+
+.fadeOutUp {
+  animation-name: fadeOutUp
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0)
+  }
+
+  to {
+    opacity: 1;
+    transform: none
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
+  }
+
+  to {
+    opacity: 1;
+    transform: none
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 150ms ease-out
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0
+}
+
+.zoom-in-enter-active,
+.zoom-in-leave-active {
+  transition: opacity 150ms ease-out
+}
+
+.zoom-in-enter-active .animation-content,
+.zoom-in-enter-active .animation-content,
+.zoom-in-leave-active .animation-content,
+.zoom-in-leave-active .animation-content {
+  transition: transform 150ms ease-out
+}
+
+.zoom-in-enter,
+.zoom-in-leave-active {
+  opacity: 0
+}
+
+.zoom-in-enter .animation-content,
+.zoom-in-enter .animation-content,
+.zoom-in-leave-active .animation-content,
+.zoom-in-leave-active .animation-content {
+  transform: scale(0.95)
+}
+
+.zoom-out-enter-active,
+.zoom-out-leave-active {
+  transition: opacity 150ms ease-out
+}
+
+.zoom-out-enter-active .animation-content,
+.zoom-out-enter-active .animation-content,
+.zoom-out-leave-active .animation-content,
+.zoom-out-leave-active .animation-content {
+  transition: transform 150ms ease-out
+}
+
+.zoom-out-enter,
+.zoom-out-leave-active {
+  opacity: 0
+}
+
+.zoom-out-enter .animation-content,
+.zoom-out-enter .animation-content,
+.zoom-out-leave-active .animation-content,
+.zoom-out-leave-active .animation-content {
+  transform: scale(1.05)
+}
+
+.slide-next-enter-active,
+.slide-next-leave-active,
+.slide-prev-enter-active,
+.slide-prev-leave-active {
+  transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86)
+}
+
+.slide-prev-leave-to,
+.slide-next-enter {
+  transform: translate3d(-100%, 0, 0);
+  position: absolute;
+  width: 100%
+}
+
+.slide-prev-enter,
+.slide-next-leave-to {
+  transform: translate3d(100%, 0, 0);
+  position: absolute;
+  width: 100%
+}
+
+.slide-down-enter-active,
+.slide-down-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: transform 250ms cubic-bezier(0.785, 0.135, 0.15, 0.86)
+}
+
+.slide-up-leave-to,
+.slide-down-enter {
+  transform: translate3d(0, -100%, 0);
+  position: absolute;
+  height: 100%
+}
+
+.slide-up-enter,
+.slide-down-leave-to {
+  transform: translate3d(0, 100%, 0);
+  position: absolute;
+  height: 100%
+}
+
+.slide-enter-active {
+  transition: 150ms ease-out
+}
+
+.slide-leave-active {
+  transition: 150ms ease-out;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1)
+}
+
+.slide-enter-to,
+.slide-leave {
+  max-height: 100px;
+  overflow: hidden
+}
+
+.slide-enter,
+.slide-leave-to {
+  overflow: hidden;
+  max-height: 0
+}
+
+.autocomplete {
+  position: relative
+}
+
+.autocomplete .dropdown-menu {
+  display: block;
+  min-width: 100%;
+  max-width: 100%
+}
+
+.autocomplete .dropdown-menu.is-opened-top {
+  top: auto;
+  bottom: 100%
+}
+
+.autocomplete .dropdown-content {
+  overflow: auto;
+  max-height: 200px
+}
+
+.autocomplete .dropdown-item,
+.autocomplete .dropdown .dropdown-menu .has-link a,
+.dropdown .dropdown-menu .has-link .autocomplete a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.autocomplete .dropdown-item.is-hovered,
+.autocomplete .dropdown .dropdown-menu .has-link a.is-hovered,
+.dropdown .dropdown-menu .has-link .autocomplete a.is-hovered {
+  background: red;
+  color: var(--iprateur-color-text)
+}
+
+.autocomplete .dropdown-item.is-disabled,
+.autocomplete .dropdown .dropdown-menu .has-link a.is-disabled,
+.dropdown .dropdown-menu .has-link .autocomplete a.is-disabled {
+  opacity: .5;
+  cursor: not-allowed
+}
+
+.autocomplete.is-small {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.autocomplete.is-medium {
+  font-size: 1.25rem
+}
+
+.autocomplete.is-large {
+  font-size: 1.5rem
+}
+
+.carousel {
+  min-height: 120px;
+  position: relative
+}
+
+.carousel.is-overlay {
+  background-color: rgba(10, 10, 10, .86);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  max-height: 100vh;
+  position: fixed;
+  z-index: 40
+}
+
+.carousel.is-overlay .carousel-item img {
+  cursor: default
+}
+
+.carousel.is-overlay .carousel-indicator.has-background {
+  background: transparent
+}
+
+.carousel .progress {
+  border-radius: 2px;
+  height: .25rem;
+  margin-bottom: 0
+}
+
+.carousel .carousel-items {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%
+}
+
+@media screen and (min-width: 769px),
+print {
+  .carousel .carousel-items:hover .carousel-arrow.is-hovered {
+    opacity: 1
+  }
+}
+
+.carousel .carousel-items .carousel-item {
+  flex-shrink: 0;
+  width: 100%
+}
+
+.carousel .carousel-pause {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: .15rem;
+  z-index: 1
+}
+
+.carousel .carousel-indicator {
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.carousel .carousel-indicator.has-background {
+  background: rgba(10, 10, 10, .5)
+}
+
+.carousel .carousel-indicator.has-custom {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  overflow-x: auto
+}
+
+.carousel .carousel-indicator.has-custom.is-small .indicator-item {
+  flex: 1 0 10%
+}
+
+.carousel .carousel-indicator.has-custom.is-medium .indicator-item {
+  flex: 1 0 16.66667%
+}
+
+.carousel .carousel-indicator.is-inside {
+  position: absolute
+}
+
+.carousel .carousel-indicator.is-inside.is-bottom {
+  bottom: 0
+}
+
+.carousel .carousel-indicator.is-inside.is-top {
+  top: 0
+}
+
+.carousel .carousel-indicator .indicator-item:not(:last-child) {
+  margin-right: .5rem
+}
+
+.carousel .carousel-indicator .indicator-item.is-active .indicator-style,
+.carousel .carousel-indicator .indicator-item .indicator-style:hover {
+  background: #c00;
+  border: 1px solid var(--iprateur-color-text)
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style {
+  display: block;
+  border: 1px solid #c00;
+  background: var(--iprateur-color-text);
+  outline: none;
+  transition: 150ms ease-out
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style.is-boxes {
+  height: 10px;
+  width: 10px
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style.is-dots {
+  border-radius: 10px;
+  height: 10px;
+  width: 10px
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style.is-lines {
+  height: 5px;
+  width: 25px
+}
+
+.carousel-list {
+  position: relative;
+  overflow: hidden;
+  width: 100%
+}
+
+.carousel-list.has-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .25)
+}
+
+@media screen and (min-width: 769px),
+print {
+  .carousel-list:hover .carousel-arrow.is-hovered {
+    opacity: 1
+  }
+}
+
+.carousel-list .carousel-slides {
+  position: relative;
+  display: flex;
+  width: 100%
+}
+
+.carousel-list .carousel-slides:not(.is-dragging) {
+  transition: all 250ms ease-out 0s
+}
+
+.carousel-list .carousel-slides.has-grayscale .carousel-slide img {
+  filter: grayscale(100%)
+}
+
+.carousel-list .carousel-slides.has-grayscale .carousel-slide.is-active img {
+  filter: grayscale(0%)
+}
+
+.carousel-list .carousel-slides.has-opacity .carousel-slide img {
+  opacity: .25
+}
+
+.carousel-list .carousel-slides.has-opacity .carousel-slide.is-active img {
+  opacity: 1
+}
+
+.carousel-list .carousel-slides .carousel-slide {
+  border: 2px solid transparent;
+  flex-shrink: 0
+}
+
+.carousel-arrow {
+  transition: 150ms ease-out
+}
+
+.carousel-arrow.is-hovered {
+  opacity: 0
+}
+
+.carousel-arrow .icon {
+  background: var(--iprateur-color-text);
+  color: #c00;
+  cursor: pointer;
+  border: 1px solid var(--iprateur-color-text);
+  border-radius: 290486px;
+  outline: 0
+}
+
+.carousel-arrow .icon:hover {
+  border: 1px solid #c00;
+  opacity: 1
+}
+
+.carousel-arrow .icon.has-icons-left,
+.carousel-arrow .icon.has-icons-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1
+}
+
+.carousel-arrow .icon.has-icons-left {
+  left: 1.5rem
+}
+
+.carousel-arrow .icon.has-icons-right {
+  right: 1.5rem
+}
+
+.b-checkbox.checkbox {
+  outline: none;
+  display: inline-flex;
+  align-items: center
+}
+
+.b-checkbox.checkbox:not(.button) {
+  margin-right: .5em
+}
+
+.b-checkbox.checkbox:not(.button)+.checkbox:last-child {
+  margin-right: 0
+}
+
+.b-checkbox.checkbox input[type=checkbox] {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  outline: none;
+  z-index: -1
+}
+
+.b-checkbox.checkbox input[type=checkbox]+.check {
+  width: 1.25em;
+  height: 1.25em;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #7a7a7a;
+  transition: background 150ms ease-out;
+  background: transparent
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check {
+  background: #c00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #c00
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-primary {
+  background: #c00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #c00
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-secondary-light {
+  background: var(--iprateur-color-text) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23000000' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--iprateur-color-text)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-secondary-dark {
+  background: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #000
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-admin-primary {
+  background: #ff4d4d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #ff4d4d
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-admin-secondary-light {
+  background: var(--blue-opaque) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked+.check.is-admin-secondary-dark {
+  background: var(--blue-opaque) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:white' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check {
+  background: #c00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #c00
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-primary {
+  background: #c00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #c00
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-secondary-light {
+  background: var(--iprateur-color-text) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23000000' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--iprateur-color-text)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-secondary-dark {
+  background: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #000
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-admin-primary {
+  background: #ff4d4d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #ff4d4d
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-admin-secondary-light {
+  background: var(--blue-opaque) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:indeterminate+.check.is-admin-secondary-dark {
+  background: var(--blue-opaque) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:white' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus+.check {
+  box-shadow: 0 0 .5em rgba(122, 122, 122, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check {
+  box-shadow: 0 0 .5em rgba(204, 0, 0, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-primary {
+  box-shadow: 0 0 .5em rgba(204, 0, 0, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-secondary-light {
+  box-shadow: 0 0 .5em rgba(255, 255, 255, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-secondary-dark {
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-admin-primary {
+  box-shadow: 0 0 .5em rgba(255, 77, 77, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-admin-secondary-light {
+  box-shadow: 0 0 .5em rgba(101, 125, 149, .8)
+}
+
+.b-checkbox.checkbox input[type=checkbox]:focus:checked+.check.is-admin-secondary-dark {
+  box-shadow: 0 0 .5em rgba(101, 125, 149, .8)
+}
+
+.b-checkbox.checkbox .control-label {
+  padding-left: .5em
+}
+
+.b-checkbox.checkbox.button {
+  display: flex
+}
+
+.b-checkbox.checkbox[disabled] {
+  opacity: .5
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check {
+  border-color: #c00
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-primary {
+  border-color: #c00
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-secondary-light {
+  border-color: var(--iprateur-color-text)
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-secondary-dark {
+  border-color: #000
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-admin-primary {
+  border-color: #ff4d4d
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-admin-secondary-light {
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled)+.check.is-admin-secondary-dark {
+  border-color: var(--blue-opaque)
+}
+
+.b-checkbox.checkbox.is-small {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.b-checkbox.checkbox.is-medium {
+  font-size: 1.25rem
+}
+
+.b-checkbox.checkbox.is-large {
+  font-size: 1.5rem
+}
+
+.b-clockpicker .card-header {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker .b-clockpicker-face:after {
+  background-color: #c00
+}
+
+.b-clockpicker .b-clockpicker-face-hand {
+  background-color: #c00;
+  border-color: #c00
+}
+
+.b-clockpicker .b-clockpicker-face-number.active {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-primary .card-header {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-primary .b-clockpicker-face:after {
+  background-color: #c00
+}
+
+.b-clockpicker.is-primary .b-clockpicker-face-hand {
+  background-color: #c00;
+  border-color: #c00
+}
+
+.b-clockpicker.is-primary .b-clockpicker-face-number.active {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-secondary-light .card-header {
+  background-color: var(--iprateur-color-text);
+  color: #000
+}
+
+.b-clockpicker.is-secondary-light .b-clockpicker-face:after {
+  background-color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-secondary-light .b-clockpicker-face-hand {
+  background-color: var(--iprateur-color-text);
+  border-color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-secondary-light .b-clockpicker-face-number.active {
+  background-color: var(--iprateur-color-text);
+  color: #000
+}
+
+.b-clockpicker.is-secondary-dark .card-header {
+  background-color: #000;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-secondary-dark .b-clockpicker-face:after {
+  background-color: #000
+}
+
+.b-clockpicker.is-secondary-dark .b-clockpicker-face-hand {
+  background-color: #000;
+  border-color: #000
+}
+
+.b-clockpicker.is-secondary-dark .b-clockpicker-face-number.active {
+  background-color: #000;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-primary .card-header {
+  background-color: #ff4d4d;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-primary .b-clockpicker-face:after {
+  background-color: #ff4d4d
+}
+
+.b-clockpicker.is-admin-primary .b-clockpicker-face-hand {
+  background-color: #ff4d4d;
+  border-color: #ff4d4d
+}
+
+.b-clockpicker.is-admin-primary .b-clockpicker-face-number.active {
+  background-color: #ff4d4d;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-secondary-light .card-header {
+  background-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-secondary-light .b-clockpicker-face:after {
+  background-color: var(--blue-opaque)
+}
+
+.b-clockpicker.is-admin-secondary-light .b-clockpicker-face-hand {
+  background-color: var(--blue-opaque);
+  border-color: var(--blue-opaque)
+}
+
+.b-clockpicker.is-admin-secondary-light .b-clockpicker-face-number.active {
+  background-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-secondary-dark .card-header {
+  background-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker.is-admin-secondary-dark .b-clockpicker-face:after {
+  background-color: var(--blue-opaque)
+}
+
+.b-clockpicker.is-admin-secondary-dark .b-clockpicker-face-hand {
+  background-color: var(--blue-opaque);
+  border-color: var(--blue-opaque)
+}
+
+.b-clockpicker.is-admin-secondary-dark .b-clockpicker-face-number.active {
+  background-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker .dropdown-menu {
+  min-width: 0
+}
+
+.b-clockpicker .dropdown,
+.b-clockpicker .dropdown-trigger {
+  width: 100%
+}
+
+.b-clockpicker .dropdown .input[readonly],
+.b-clockpicker .dropdown .taginput [readonly].taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown [readonly].taginput-container.is-focusable,
+.b-clockpicker .dropdown-trigger .input[readonly],
+.b-clockpicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown-trigger [readonly].taginput-container.is-focusable {
+  cursor: pointer;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1)
+}
+
+.b-clockpicker .dropdown .input[readonly]:focus,
+.b-clockpicker .dropdown .taginput [readonly].taginput-container.is-focusable:focus,
+.taginput .b-clockpicker .dropdown [readonly].taginput-container.is-focusable:focus,
+.b-clockpicker .dropdown .input[readonly].is-focused,
+.b-clockpicker .dropdown .taginput [readonly].is-focused.taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown [readonly].is-focused.taginput-container.is-focusable,
+.b-clockpicker .dropdown .input[readonly]:active,
+.b-clockpicker .dropdown .taginput [readonly].taginput-container.is-focusable:active,
+.taginput .b-clockpicker .dropdown [readonly].taginput-container.is-focusable:active,
+.b-clockpicker .dropdown .input[readonly].is-active,
+.b-clockpicker .dropdown .taginput [readonly].is-active.taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown [readonly].is-active.taginput-container.is-focusable,
+.b-clockpicker .dropdown-trigger .input[readonly]:focus,
+.b-clockpicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable:focus,
+.taginput .b-clockpicker .dropdown-trigger [readonly].taginput-container.is-focusable:focus,
+.b-clockpicker .dropdown-trigger .input[readonly].is-focused,
+.b-clockpicker .dropdown-trigger .taginput [readonly].is-focused.taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown-trigger [readonly].is-focused.taginput-container.is-focusable,
+.b-clockpicker .dropdown-trigger .input[readonly]:active,
+.b-clockpicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable:active,
+.taginput .b-clockpicker .dropdown-trigger [readonly].taginput-container.is-focusable:active,
+.b-clockpicker .dropdown-trigger .input[readonly].is-active,
+.b-clockpicker .dropdown-trigger .taginput [readonly].is-active.taginput-container.is-focusable,
+.taginput .b-clockpicker .dropdown-trigger [readonly].is-active.taginput-container.is-focusable {
+  box-shadow: 0 0 0 .125em rgba(50, 115, 220, .25)
+}
+
+.b-clockpicker .dropdown-item,
+.b-clockpicker .dropdown .dropdown-menu .has-link a,
+.dropdown .dropdown-menu .has-link .b-clockpicker a {
+  font-size: inherit;
+  padding: 0
+}
+
+.b-clockpicker .dropdown-content {
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.b-clockpicker .card {
+  border-radius: 6px
+}
+
+.b-clockpicker .card-header {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px
+}
+
+.b-clockpicker .card-content {
+  padding: 12px
+}
+
+.b-clockpicker-btn {
+  cursor: pointer;
+  opacity: .6
+}
+
+.b-clockpicker-btn:hover,
+.b-clockpicker-btn.active {
+  opacity: 1
+}
+
+.b-clockpicker-period .b-clockpicker-btn {
+  font-size: 16px;
+  text-transform: uppercase
+}
+
+.b-clockpicker-time span {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center
+}
+
+.b-clockpicker-header {
+  display: flex;
+  line-height: 1;
+  justify-content: flex-end;
+  color: inherit
+}
+
+.b-clockpicker-header .b-clockpicker-time {
+  white-space: nowrap
+}
+
+.b-clockpicker-header .b-clockpicker-time span {
+  height: 60px;
+  font-size: 60px
+}
+
+.b-clockpicker-header .b-clockpicker-period {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 6px 8px
+}
+
+.b-clockpicker-body {
+  transition: .9s cubic-bezier(0.25, 0.8, 0.5, 1)
+}
+
+.b-clockpicker-body .b-clockpicker-btn {
+  padding: 0 8px;
+  border-radius: 290486px;
+  margin-bottom: 2px
+}
+
+.b-clockpicker-body .b-clockpicker-btn:hover,
+.b-clockpicker-body .b-clockpicker-btn.active {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.b-clockpicker-body .b-clockpicker-period {
+  position: absolute;
+  top: 5px;
+  right: 5px
+}
+
+.b-clockpicker-body .b-clockpicker-time {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 16px
+}
+
+.b-clockpicker-body .b-clockpicker-face {
+  border-radius: 50%;
+  position: relative;
+  background-color: #dbdbdb;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+
+.b-clockpicker-body .b-clockpicker-face:after {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  z-index: 10
+}
+
+.b-clockpicker-body .b-clockpicker-face-outer-ring {
+  user-select: none;
+  height: calc(100% - 50px);
+  width: calc(100% - 50px);
+  position: relative;
+  border-radius: 50%
+}
+
+.b-clockpicker-body .b-clockpicker-face-number {
+  align-items: center;
+  border-radius: 100%;
+  cursor: default;
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2);
+  top: calc(50% - 40px / 2);
+  user-select: none
+}
+
+.b-clockpicker-body .b-clockpicker-face-number>span {
+  z-index: 1
+}
+
+.b-clockpicker-body .b-clockpicker-face-number:before,
+.b-clockpicker-body .b-clockpicker-face-number:after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.b-clockpicker-body .b-clockpicker-face-number.active {
+  cursor: default;
+  z-index: 2
+}
+
+.b-clockpicker-body .b-clockpicker-face-number.disabled {
+  pointer-events: none;
+  opacity: .25
+}
+
+.b-clockpicker-body .b-clockpicker-face-hand {
+  height: calc(50% - 6px);
+  width: 2px;
+  bottom: 50%;
+  left: calc(50% - 1px);
+  transform-origin: center bottom;
+  position: absolute;
+  will-change: transform;
+  z-index: 1
+}
+
+.b-clockpicker-body .b-clockpicker-face-hand:before {
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: inherit;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.b-clockpicker-footer {
+  display: block;
+  padding: 12px
+}
+
+.b-clockpicker.is-small {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.b-clockpicker.is-medium {
+  font-size: 1.25rem
+}
+
+.b-clockpicker.is-large {
+  font-size: 1.5rem
+}
+
+.collapse .collapse-trigger {
+  display: inline;
+  cursor: pointer
+}
+
+.collapse .collapse-content {
+  display: inherit
+}
+
+.datepicker {
+  font-size: .875rem
+}
+
+.datepicker .dropdown,
+.datepicker .dropdown-trigger {
+  width: 100%
+}
+
+.datepicker .dropdown .input[readonly],
+.datepicker .dropdown .taginput [readonly].taginput-container.is-focusable,
+.taginput .datepicker .dropdown [readonly].taginput-container.is-focusable,
+.datepicker .dropdown-trigger .input[readonly],
+.datepicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable,
+.taginput .datepicker .dropdown-trigger [readonly].taginput-container.is-focusable {
+  cursor: pointer;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1)
+}
+
+.datepicker .dropdown .input[readonly]:focus,
+.datepicker .dropdown .taginput [readonly].taginput-container.is-focusable:focus,
+.taginput .datepicker .dropdown [readonly].taginput-container.is-focusable:focus,
+.datepicker .dropdown .input[readonly].is-focused,
+.datepicker .dropdown .taginput [readonly].is-focused.taginput-container.is-focusable,
+.taginput .datepicker .dropdown [readonly].is-focused.taginput-container.is-focusable,
+.datepicker .dropdown .input[readonly]:active,
+.datepicker .dropdown .taginput [readonly].taginput-container.is-focusable:active,
+.taginput .datepicker .dropdown [readonly].taginput-container.is-focusable:active,
+.datepicker .dropdown .input[readonly].is-active,
+.datepicker .dropdown .taginput [readonly].is-active.taginput-container.is-focusable,
+.taginput .datepicker .dropdown [readonly].is-active.taginput-container.is-focusable,
+.datepicker .dropdown-trigger .input[readonly]:focus,
+.datepicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable:focus,
+.taginput .datepicker .dropdown-trigger [readonly].taginput-container.is-focusable:focus,
+.datepicker .dropdown-trigger .input[readonly].is-focused,
+.datepicker .dropdown-trigger .taginput [readonly].is-focused.taginput-container.is-focusable,
+.taginput .datepicker .dropdown-trigger [readonly].is-focused.taginput-container.is-focusable,
+.datepicker .dropdown-trigger .input[readonly]:active,
+.datepicker .dropdown-trigger .taginput [readonly].taginput-container.is-focusable:active,
+.taginput .datepicker .dropdown-trigger [readonly].taginput-container.is-focusable:active,
+.datepicker .dropdown-trigger .input[readonly].is-active,
+.datepicker .dropdown-trigger .taginput [readonly].is-active.taginput-container.is-focusable,
+.taginput .datepicker .dropdown-trigger [readonly].is-active.taginput-container.is-focusable {
+  box-shadow: 0 0 0 .125em rgba(50, 115, 220, .25)
+}
+
+.datepicker .dropdown.is-disabled {
+  opacity: 1
+}
+
+.datepicker .dropdown-content {
+  background-color: var(--iprateur-color-text);
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1)
+}
+
+.datepicker .dropdown-item,
+.datepicker .dropdown .dropdown-menu .has-link a,
+.dropdown .dropdown-menu .has-link .datepicker a {
+  font-size: inherit
+}
+
+.datepicker .datepicker-header {
+  padding-bottom: .875rem;
+  margin-bottom: .875rem;
+  border-bottom: 1px solid #dbdbdb
+}
+
+.datepicker .datepicker-footer {
+  margin-top: .875rem;
+  padding-top: .875rem;
+  border-top: 1px solid #dbdbdb
+}
+
+.datepicker .datepicker-table {
+  display: table;
+  margin: 0 auto 0 auto
+}
+
+.datepicker .datepicker-table .datepicker-cell {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius: 6px;
+  padding: .5rem .75rem
+}
+
+.datepicker .datepicker-table .datepicker-header {
+  display: table-header-group
+}
+
+.datepicker .datepicker-table .datepicker-header .datepicker-cell {
+  color: #7a7a7a;
+  font-weight: 600
+}
+
+.datepicker .datepicker-table .datepicker-body {
+  display: table-row-group
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-row {
+  display: table-row
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-months {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 17rem
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-months .datepicker-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+  height: 2.5rem
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-unselectable {
+  color: #b5b5b5
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-today {
+  border: solid 1px rgba(204, 0, 0, .5)
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable {
+  color: #4a4a4a
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable:hover:not(.is-selected),
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable:focus:not(.is-selected) {
+  background-color: #f5f5f5;
+  color: #0a0a0a;
+  cursor: pointer
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable.is-within-hovered-range.is-first-hovered {
+  background-color: #7a7a7a;
+  color: #dbdbdb;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable.is-within-hovered-range.is-within-hovered {
+  background-color: #f5f5f5;
+  color: #0a0a0a;
+  border-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable.is-within-hovered-range.is-last-hovered {
+  background-color: #7a7a7a;
+  color: #dbdbdb;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected {
+  background-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-first-selected {
+  background-color: #c00;
+  color: var(--iprateur-color-text);
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-within-selected {
+  background-color: rgba(204, 0, 0, .5);
+  border-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-last-selected {
+  background-color: #c00;
+  color: var(--iprateur-color-text);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-nearby:not(.is-selected) {
+  color: #b5b5b5
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-week-number {
+  cursor: default
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell {
+  padding: .3rem .75rem .75rem
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event {
+  position: relative
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events {
+  bottom: .425rem;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: 0 .35rem;
+  position: absolute;
+  width: 100%
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-primary {
+  background-color: #c00
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-secondary-light {
+  background-color: var(--iprateur-color-text)
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-secondary-dark {
+  background-color: #000
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-admin-primary {
+  background-color: #ff4d4d
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-admin-secondary-light {
+  background-color: var(--blue-opaque)
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-admin-secondary-dark {
+  background-color: var(--blue-opaque)
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event.dots .event {
+  border-radius: 50%;
+  height: .35em;
+  margin: 0 .1em;
+  width: .35em
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event.bars .event {
+  height: .25em;
+  width: 100%
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.is-selected {
+  overflow: hidden
+}
+
+.datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.is-selected .events .event.is-primary {
+  background-color: #ff1a1a
+}
+
+.datepicker.is-small {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.datepicker.is-medium {
+  font-size: 1.25rem
+}
+
+.datepicker.is-large {
+  font-size: 1.5rem
+}
+
+@media screen and (min-width: 1024px) {
+  .datepicker .footer-horizontal-timepicker {
+    border: none;
+    padding-left: 10px;
+    margin-left: 5px;
+    display: flex
+  }
+
+  .datepicker .dropdown-horizonal-timepicker {
+    display: flex
+  }
+
+  .datepicker .content-horizonal-timepicker {
+    border-right: 1px solid #dbdbdb
+  }
+}
+
+.dialog .modal-card {
+  max-width: 460px;
+  width: auto
+}
+
+.dialog .modal-card .modal-card-head {
+  font-size: 1.25rem;
+  font-weight: 600
+}
+
+.dialog .modal-card .modal-card-body .field {
+  margin-top: 16px
+}
+
+.dialog .modal-card .modal-card-body.is-titleless {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px
+}
+
+.dialog .modal-card .modal-card-foot {
+  justify-content: flex-end
+}
+
+.dialog .modal-card .modal-card-foot .button {
+  display: inline;
+  min-width: 5em;
+  font-weight: 600
+}
+
+@media screen and (min-width: 769px),
+print {
+  .dialog .modal-card {
+    min-width: 320px
+  }
+}
+
+.dialog.is-small .modal-card,
+.dialog.is-small .input,
+.dialog.is-small .taginput .taginput-container.is-focusable,
+.taginput .dialog.is-small .taginput-container.is-focusable,
+.dialog.is-small .button {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.dialog.is-medium .modal-card,
+.dialog.is-medium .input,
+.dialog.is-medium .taginput .taginput-container.is-focusable,
+.taginput .dialog.is-medium .taginput-container.is-focusable,
+.dialog.is-medium .button {
+  font-size: 1.25rem
+}
+
+.dialog.is-large .modal-card,
+.dialog.is-large .input,
+.dialog.is-large .taginput .taginput-container.is-focusable,
+.taginput .dialog.is-large .taginput-container.is-focusable,
+.dialog.is-large .button {
+  font-size: 1.5rem
+}
+
+.dialog.has-custom-container {
+  position: absolute
+}
+
+.dropdown+.dropdown {
+  margin-left: .5em
+}
+
+.dropdown .background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background-color: rgba(10, 10, 10, .86);
+  z-index: 40;
+  cursor: pointer
+}
+
+@media screen and (min-width: 1024px) {
+  .dropdown .background {
+    display: none
+  }
+}
+
+.dropdown.dropdown-menu-animation .dropdown-menu {
+  display: block
+}
+
+.dropdown .dropdown-menu .dropdown-item.is-disabled,
+.dropdown .dropdown-menu .has-link a.is-disabled {
+  cursor: not-allowed
+}

@@ -1,0 +1,2000 @@
+
+  .is-size-4-touch {
+    font-size: 1.5rem !important
+  }
+
+  .is-size-5-touch {
+    font-size: 1.25rem !important
+  }
+
+  .is-size-6-touch {
+    font-size: 1rem !important
+  }
+
+  .is-size-7-touch {
+    font-size: .75rem !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-size-1-desktop {
+    font-size: 3rem !important
+  }
+
+  .is-size-2-desktop {
+    font-size: 2.5rem !important
+  }
+
+  .is-size-3-desktop {
+    font-size: 2rem !important
+  }
+
+  .is-size-4-desktop {
+    font-size: 1.5rem !important
+  }
+
+  .is-size-5-desktop {
+    font-size: 1.25rem !important
+  }
+
+  .is-size-6-desktop {
+    font-size: 1rem !important
+  }
+
+  .is-size-7-desktop {
+    font-size: .75rem !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-size-1-widescreen {
+    font-size: 3rem !important
+  }
+
+  .is-size-2-widescreen {
+    font-size: 2.5rem !important
+  }
+
+  .is-size-3-widescreen {
+    font-size: 2rem !important
+  }
+
+  .is-size-4-widescreen {
+    font-size: 1.5rem !important
+  }
+
+  .is-size-5-widescreen {
+    font-size: 1.25rem !important
+  }
+
+  .is-size-6-widescreen {
+    font-size: 1rem !important
+  }
+
+  .is-size-7-widescreen {
+    font-size: .75rem !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-size-1-fullhd {
+    font-size: 3rem !important
+  }
+
+  .is-size-2-fullhd {
+    font-size: 2.5rem !important
+  }
+
+  .is-size-3-fullhd {
+    font-size: 2rem !important
+  }
+
+  .is-size-4-fullhd {
+    font-size: 1.5rem !important
+  }
+
+  .is-size-5-fullhd {
+    font-size: 1.25rem !important
+  }
+
+  .is-size-6-fullhd {
+    font-size: 1rem !important
+  }
+
+  .is-size-7-fullhd {
+    font-size: .75rem !important
+  }
+}
+
+.has-text-centered {
+  text-align: center !important
+}
+
+.has-text-justified {
+  text-align: justify !important
+}
+
+.has-text-left {
+  text-align: left !important
+}
+
+.has-text-right {
+  text-align: right !important
+}
+
+@media screen and (max-width: 768px) {
+  .has-text-centered-mobile {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .has-text-centered-tablet {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .has-text-centered-tablet-only {
+    text-align: center !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .has-text-centered-touch {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .has-text-centered-desktop {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .has-text-centered-desktop-only {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .has-text-centered-widescreen {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .has-text-centered-widescreen-only {
+    text-align: center !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .has-text-centered-fullhd {
+    text-align: center !important
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-text-justified-mobile {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .has-text-justified-tablet {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .has-text-justified-tablet-only {
+    text-align: justify !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .has-text-justified-touch {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .has-text-justified-desktop {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .has-text-justified-desktop-only {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .has-text-justified-widescreen {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .has-text-justified-widescreen-only {
+    text-align: justify !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .has-text-justified-fullhd {
+    text-align: justify !important
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-text-left-mobile {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .has-text-left-tablet {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .has-text-left-tablet-only {
+    text-align: left !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .has-text-left-touch {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .has-text-left-desktop {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .has-text-left-desktop-only {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .has-text-left-widescreen {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .has-text-left-widescreen-only {
+    text-align: left !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .has-text-left-fullhd {
+    text-align: left !important
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-text-right-mobile {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .has-text-right-tablet {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .has-text-right-tablet-only {
+    text-align: right !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .has-text-right-touch {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .has-text-right-desktop {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .has-text-right-desktop-only {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .has-text-right-widescreen {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .has-text-right-widescreen-only {
+    text-align: right !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .has-text-right-fullhd {
+    text-align: right !important
+  }
+}
+
+.is-capitalized {
+  text-transform: capitalize !important
+}
+
+.is-lowercase {
+  text-transform: lowercase !important
+}
+
+.is-uppercase {
+  text-transform: uppercase !important
+}
+
+.is-italic {
+  font-style: italic !important
+}
+
+.has-text-primary {
+  color: #c00 !important
+}
+
+a.has-text-primary:hover,
+a.has-text-primary:focus {
+  color: #900 !important
+}
+
+.has-background-primary {
+  background-color: #c00 !important
+}
+
+.has-text-secondary-light {
+  color: var(--iprateur-color-text) !important
+}
+
+a.has-text-secondary-light:hover,
+a.has-text-secondary-light:focus {
+  color: #e6e6e6 !important
+}
+
+.has-background-secondary-light {
+  background-color: var(--iprateur-color-text) !important
+}
+
+.has-text-secondary-dark {
+  color: #000 !important
+}
+
+a.has-text-secondary-dark:hover,
+a.has-text-secondary-dark:focus {
+  color: #000 !important
+}
+
+.has-background-secondary-dark {
+  background-color: #000 !important
+}
+
+.has-text-admin-primary {
+  color: #ff4d4d !important
+}
+
+a.has-text-admin-primary:hover,
+a.has-text-admin-primary:focus {
+  color: #ff1a1a !important
+}
+
+.has-background-admin-primary {
+  background-color: #ff4d4d !important
+}
+
+.has-text-admin-secondary-light {
+  color: var(--blue-opaque) !important
+}
+
+a.has-text-admin-secondary-light:hover,
+a.has-text-admin-secondary-light:focus {
+  color: #506477 !important
+}
+
+.has-background-admin-secondary-light {
+  background-color: var(--blue-opaque) !important
+}
+
+.has-text-admin-secondary-dark {
+  color: var(--blue-opaque) !important
+}
+
+a.has-text-admin-secondary-dark:hover,
+a.has-text-admin-secondary-dark:focus {
+  color: #506477 !important
+}
+
+.has-background-admin-secondary-dark {
+  background-color: var(--blue-opaque) !important
+}
+
+.has-text-black-bis {
+  color: #121212 !important
+}
+
+.has-background-black-bis {
+  background-color: #121212 !important
+}
+
+.has-text-black-ter {
+  color: #242424 !important
+}
+
+.has-background-black-ter {
+  background-color: #242424 !important
+}
+
+.has-text-grey-darker {
+  color: #363636 !important
+}
+
+.has-background-grey-darker {
+  background-color: #363636 !important
+}
+
+.has-text-grey-dark {
+  color: #4a4a4a !important
+}
+
+.has-background-grey-dark {
+  background-color: #4a4a4a !important
+}
+
+.has-text-grey {
+  color: #7a7a7a !important
+}
+
+.has-background-grey {
+  background-color: #7a7a7a !important
+}
+
+.has-text-grey-light {
+  color: #b5b5b5 !important
+}
+
+.has-background-grey-light {
+  background-color: #b5b5b5 !important
+}
+
+.has-text-grey-lighter {
+  color: #dbdbdb !important
+}
+
+.has-background-grey-lighter {
+  background-color: #dbdbdb !important
+}
+
+.has-text-white-ter {
+  color: #f5f5f5 !important
+}
+
+.has-background-white-ter {
+  background-color: #f5f5f5 !important
+}
+
+.has-text-white-bis {
+  color: #fafafa !important
+}
+
+.has-background-white-bis {
+  background-color: #fafafa !important
+}
+
+.has-text-weight-light {
+  font-weight: 300 !important
+}
+
+.has-text-weight-normal {
+  font-weight: 400 !important
+}
+
+.has-text-weight-medium {
+  font-weight: 500 !important
+}
+
+.has-text-weight-semibold {
+  font-weight: 600 !important
+}
+
+.has-text-weight-bold {
+  font-weight: 700 !important
+}
+
+.is-family-primary {
+  font-family: "Roboto", sans-serif !important
+}
+
+.is-family-secondary {
+  font-family: "Roboto", sans-serif !important
+}
+
+.is-family-sans-serif {
+  font-family: "Roboto", sans-serif !important
+}
+
+.is-family-monospace {
+  font-family: "Roboto Mono", sans-serif !important
+}
+
+.is-family-code {
+  font-family: "Roboto Mono", sans-serif !important
+}
+
+.is-block {
+  display: block !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-block-mobile {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-block-tablet {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-block-tablet-only {
+    display: block !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-block-touch {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-block-desktop {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-block-desktop-only {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-block-widescreen {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-block-widescreen-only {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-block-fullhd {
+    display: block !important
+  }
+}
+
+.is-flex {
+  display: flex !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-flex-mobile {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-flex-tablet {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-flex-tablet-only {
+    display: flex !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-flex-touch {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-flex-desktop {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-flex-desktop-only {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-flex-widescreen {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-flex-widescreen-only {
+    display: flex !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-flex-fullhd {
+    display: flex !important
+  }
+}
+
+.is-inline {
+  display: inline !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-inline-mobile {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-inline-tablet {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-inline-tablet-only {
+    display: inline !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-inline-touch {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-inline-desktop {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-inline-desktop-only {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-inline-widescreen {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-inline-widescreen-only {
+    display: inline !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-inline-fullhd {
+    display: inline !important
+  }
+}
+
+.is-inline-block {
+  display: inline-block !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-inline-block-mobile {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-inline-block-tablet {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-inline-block-tablet-only {
+    display: inline-block !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-inline-block-touch {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-inline-block-desktop {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-inline-block-desktop-only {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-inline-block-widescreen {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-inline-block-widescreen-only {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-inline-block-fullhd {
+    display: inline-block !important
+  }
+}
+
+.is-inline-flex {
+  display: inline-flex !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-inline-flex-mobile {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-inline-flex-tablet {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-inline-flex-tablet-only {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-inline-flex-touch {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-inline-flex-desktop {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-inline-flex-desktop-only {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-inline-flex-widescreen {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-inline-flex-widescreen-only {
+    display: inline-flex !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-inline-flex-fullhd {
+    display: inline-flex !important
+  }
+}
+
+.is-hidden {
+  display: none !important
+}
+
+.is-sr-only {
+  border: none !important;
+  clip: rect(0, 0, 0, 0) !important;
+  height: .01em !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: .01em !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-hidden-mobile {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-hidden-tablet {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-hidden-tablet-only {
+    display: none !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-hidden-touch {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-hidden-desktop {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-hidden-desktop-only {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-hidden-widescreen {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-hidden-widescreen-only {
+    display: none !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-hidden-fullhd {
+    display: none !important
+  }
+}
+
+.is-invisible {
+  visibility: hidden !important
+}
+
+@media screen and (max-width: 768px) {
+  .is-invisible-mobile {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .is-invisible-tablet {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1023px) {
+  .is-invisible-tablet-only {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .is-invisible-touch {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .is-invisible-desktop {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1215px) {
+  .is-invisible-desktop-only {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-invisible-widescreen {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 1216px)and (max-width: 1407px) {
+  .is-invisible-widescreen-only {
+    visibility: hidden !important
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .is-invisible-fullhd {
+    visibility: hidden !important
+  }
+}
+
+.is-marginless {
+  margin: 0 !important
+}
+
+.is-paddingless {
+  padding: 0 !important
+}
+
+.is-radiusless {
+  border-radius: 0 !important
+}
+
+.is-shadowless {
+  box-shadow: none !important
+}
+
+.is-relative {
+  position: relative !important
+}
+
+.box {
+  background-color: var(--iprateur-color-text);
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem
+}
+
+a.box:hover,
+a.box:focus {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px #3273dc
+}
+
+a.box:active {
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, .2), 0 0 0 1px #3273dc
+}
+
+.button {
+  background-color: var(--iprateur-color-text);
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #000;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  text-align: center;
+  white-space: nowrap
+}
+
+.button strong {
+  color: inherit
+}
+
+.button .icon,
+.button .icon.is-small,
+.button .icon.is-medium,
+.button .icon.is-large {
+  height: 1.5em;
+  width: 1.5em
+}
+
+.button .icon:first-child:not(:last-child) {
+  margin-left: calc(-0.375em - 1px);
+  margin-right: .1875em
+}
+
+.button .icon:last-child:not(:first-child) {
+  margin-left: .1875em;
+  margin-right: calc(-0.375em - 1px)
+}
+
+.button .icon:first-child:last-child {
+  margin-left: calc(-0.375em - 1px);
+  margin-right: calc(-0.375em - 1px)
+}
+
+.button:hover,
+.button.is-hovered {
+  border-color: #b5b5b5;
+  color: #363636
+}
+
+.button:focus,
+.button.is-focused {
+  border-color: #3273dc;
+  color: #363636
+}
+
+.button:focus:not(:active),
+.button.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(50, 115, 220, .25)
+}
+
+.button:active,
+.button.is-active {
+  border-color: #4a4a4a;
+  color: #363636
+}
+
+.button.is-text {
+  background-color: transparent;
+  border-color: transparent;
+  color: #4a4a4a;
+  text-decoration: underline
+}
+
+.button.is-text:hover,
+.button.is-text.is-hovered,
+.button.is-text:focus,
+.button.is-text.is-focused {
+  background-color: #f5f5f5;
+  color: #363636
+}
+
+.button.is-text:active,
+.button.is-text.is-active {
+  background-color: #e8e8e8;
+  color: #363636
+}
+
+.button.is-text[disabled],
+fieldset[disabled] .button.is-text {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-primary {
+  background-color: #c00;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary:hover,
+.button.is-primary.is-hovered {
+  background-color: #bf0000;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary:focus,
+.button.is-primary.is-focused {
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary:focus:not(:active),
+.button.is-primary.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(204, 0, 0, .25)
+}
+
+.button.is-primary:active,
+.button.is-primary.is-active {
+  background-color: #b30000;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary[disabled],
+fieldset[disabled] .button.is-primary {
+  background-color: #c00;
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-primary.is-inverted {
+  background-color: var(--iprateur-color-text);
+  color: #c00
+}
+
+.button.is-primary.is-inverted:hover,
+.button.is-primary.is-inverted.is-hovered {
+  background-color: #f2f2f2
+}
+
+.button.is-primary.is-inverted[disabled],
+fieldset[disabled] .button.is-primary.is-inverted {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none;
+  color: #c00
+}
+
+.button.is-primary.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #c00;
+  color: #c00
+}
+
+.button.is-primary.is-outlined:hover,
+.button.is-primary.is-outlined.is-hovered,
+.button.is-primary.is-outlined:focus,
+.button.is-primary.is-outlined.is-focused {
+  background-color: #c00;
+  border-color: #c00;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary.is-outlined.is-loading::after {
+  border-color: transparent transparent #c00 #c00 !important
+}
+
+.button.is-primary.is-outlined.is-loading:hover::after,
+.button.is-primary.is-outlined.is-loading.is-hovered::after,
+.button.is-primary.is-outlined.is-loading:focus::after,
+.button.is-primary.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-primary.is-outlined[disabled],
+fieldset[disabled] .button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #c00;
+  box-shadow: none;
+  color: #c00
+}
+
+.button.is-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-primary.is-inverted.is-outlined:hover,
+.button.is-primary.is-inverted.is-outlined.is-hovered,
+.button.is-primary.is-inverted.is-outlined:focus,
+.button.is-primary.is-inverted.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  color: #c00
+}
+
+.button.is-primary.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-primary.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #c00 #c00 !important
+}
+
+.button.is-primary.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  color: #000
+}
+
+.button.is-secondary-light:hover,
+.button.is-secondary-light.is-hovered {
+  background-color: #f9f9f9;
+  border-color: transparent;
+  color: #000
+}
+
+.button.is-secondary-light:focus,
+.button.is-secondary-light.is-focused {
+  border-color: transparent;
+  color: #000
+}
+
+.button.is-secondary-light:focus:not(:active),
+.button.is-secondary-light.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(255, 255, 255, .25)
+}
+
+.button.is-secondary-light:active,
+.button.is-secondary-light.is-active {
+  background-color: #f2f2f2;
+  border-color: transparent;
+  color: #000
+}
+
+.button.is-secondary-light[disabled],
+fieldset[disabled] .button.is-secondary-light {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-secondary-light.is-inverted {
+  background-color: #000;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light.is-inverted:hover,
+.button.is-secondary-light.is-inverted.is-hovered {
+  background-color: #000
+}
+
+.button.is-secondary-light.is-inverted[disabled],
+fieldset[disabled] .button.is-secondary-light.is-inverted {
+  background-color: #000;
+  border-color: transparent;
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light.is-loading::after {
+  border-color: transparent transparent #000 #000 !important
+}
+
+.button.is-secondary-light.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light.is-outlined:hover,
+.button.is-secondary-light.is-outlined.is-hovered,
+.button.is-secondary-light.is-outlined:focus,
+.button.is-secondary-light.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  border-color: var(--iprateur-color-text);
+  color: #000
+}
+
+.button.is-secondary-light.is-outlined.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-secondary-light.is-outlined.is-loading:hover::after,
+.button.is-secondary-light.is-outlined.is-loading.is-hovered::after,
+.button.is-secondary-light.is-outlined.is-loading:focus::after,
+.button.is-secondary-light.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #000 #000 !important
+}
+
+.button.is-secondary-light.is-outlined[disabled],
+fieldset[disabled] .button.is-secondary-light.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #000;
+  color: #000
+}
+
+.button.is-secondary-light.is-inverted.is-outlined:hover,
+.button.is-secondary-light.is-inverted.is-outlined.is-hovered,
+.button.is-secondary-light.is-inverted.is-outlined:focus,
+.button.is-secondary-light.is-inverted.is-outlined.is-focused {
+  background-color: #000;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-light.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-secondary-light.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-secondary-light.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-secondary-light.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-secondary-light.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-secondary-light.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #000;
+  box-shadow: none;
+  color: #000
+}
+
+.button.is-secondary-dark {
+  background-color: #000;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark:hover,
+.button.is-secondary-dark.is-hovered {
+  background-color: #000;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark:focus,
+.button.is-secondary-dark.is-focused {
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark:focus:not(:active),
+.button.is-secondary-dark.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(0, 0, 0, .25)
+}
+
+.button.is-secondary-dark:active,
+.button.is-secondary-dark.is-active {
+  background-color: #000;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark[disabled],
+fieldset[disabled] .button.is-secondary-dark {
+  background-color: #000;
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-secondary-dark.is-inverted {
+  background-color: var(--iprateur-color-text);
+  color: #000
+}
+
+.button.is-secondary-dark.is-inverted:hover,
+.button.is-secondary-dark.is-inverted.is-hovered {
+  background-color: #f2f2f2
+}
+
+.button.is-secondary-dark.is-inverted[disabled],
+fieldset[disabled] .button.is-secondary-dark.is-inverted {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none;
+  color: #000
+}
+
+.button.is-secondary-dark.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-secondary-dark.is-outlined {
+  background-color: transparent;
+  border-color: #000;
+  color: #000
+}
+
+.button.is-secondary-dark.is-outlined:hover,
+.button.is-secondary-dark.is-outlined.is-hovered,
+.button.is-secondary-dark.is-outlined:focus,
+.button.is-secondary-dark.is-outlined.is-focused {
+  background-color: #000;
+  border-color: #000;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark.is-outlined.is-loading::after {
+  border-color: transparent transparent #000 #000 !important
+}
+
+.button.is-secondary-dark.is-outlined.is-loading:hover::after,
+.button.is-secondary-dark.is-outlined.is-loading.is-hovered::after,
+.button.is-secondary-dark.is-outlined.is-loading:focus::after,
+.button.is-secondary-dark.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-secondary-dark.is-outlined[disabled],
+fieldset[disabled] .button.is-secondary-dark.is-outlined {
+  background-color: transparent;
+  border-color: #000;
+  box-shadow: none;
+  color: #000
+}
+
+.button.is-secondary-dark.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-secondary-dark.is-inverted.is-outlined:hover,
+.button.is-secondary-dark.is-inverted.is-outlined.is-hovered,
+.button.is-secondary-dark.is-inverted.is-outlined:focus,
+.button.is-secondary-dark.is-inverted.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  color: #000
+}
+
+.button.is-secondary-dark.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-secondary-dark.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-secondary-dark.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-secondary-dark.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #000 #000 !important
+}
+
+.button.is-secondary-dark.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-secondary-dark.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-primary {
+  background-color: var(--iprateur-important-button-color);
+  border-color: transparent;
+  color: var(--iprateur-important-button-text-color)
+}
+
+.button.is-admin-primary:hover,
+.button.is-admin-primary.is-hovered {
+  background-color: var(--iprateur-button-background-hover-color);
+  border-color: transparent;
+  color: var(--iprateur-important-button-text-color)
+}
+
+.button.is-admin-primary:focus,
+.button.is-admin-primary.is-focused {
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-primary:focus:not(:active),
+.button.is-admin-primary.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(255, 77, 77, .25)
+}
+
+.button.is-admin-primary:active,
+.button.is-admin-primary.is-active {
+  background-color: #f33;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-primary[disabled],
+fieldset[disabled] .button.is-admin-primary {
+  background-color: #ff4d4d;
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-admin-primary.is-inverted {
+  background-color: var(--iprateur-color-text);
+  color: #ff4d4d
+}
+
+.button.is-admin-primary.is-inverted:hover,
+.button.is-admin-primary.is-inverted.is-hovered {
+  background-color: #f2f2f2
+}
+
+.button.is-admin-primary.is-inverted[disabled],
+fieldset[disabled] .button.is-admin-primary.is-inverted {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none;
+  color: #ff4d4d
+}
+
+.button.is-admin-primary.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-primary.is-outlined {
+  background-color: transparent;
+  border-color: #ff4d4d;
+  color: #ff4d4d
+}
+
+.button.is-admin-primary.is-outlined:hover,
+.button.is-admin-primary.is-outlined.is-hovered,
+.button.is-admin-primary.is-outlined:focus,
+.button.is-admin-primary.is-outlined.is-focused {
+  background-color: #ff4d4d;
+  border-color: #ff4d4d;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-primary.is-outlined.is-loading::after {
+  border-color: transparent transparent #ff4d4d #ff4d4d !important
+}
+
+.button.is-admin-primary.is-outlined.is-loading:hover::after,
+.button.is-admin-primary.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-primary.is-outlined.is-loading:focus::after,
+.button.is-admin-primary.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-primary.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-primary.is-outlined {
+  background-color: transparent;
+  border-color: #ff4d4d;
+  box-shadow: none;
+  color: #ff4d4d
+}
+
+.button.is-admin-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-primary.is-inverted.is-outlined:hover,
+.button.is-admin-primary.is-inverted.is-outlined.is-hovered,
+.button.is-admin-primary.is-inverted.is-outlined:focus,
+.button.is-admin-primary.is-inverted.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  color: #ff4d4d
+}
+
+.button.is-admin-primary.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-admin-primary.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-primary.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-admin-primary.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #ff4d4d #ff4d4d !important
+}
+
+.button.is-admin-primary.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light {
+  background-color: var(--blue-opaque);
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light:hover,
+.button.is-admin-secondary-light.is-hovered {
+  background-color: #60778d;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light:focus,
+.button.is-admin-secondary-light.is-focused {
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light:focus:not(:active),
+.button.is-admin-secondary-light.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(101, 125, 149, .25)
+}
+
+.button.is-admin-secondary-light:active,
+.button.is-admin-secondary-light.is-active {
+  background-color: var(--iprateur-button-background-hover-color);
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light[disabled],
+fieldset[disabled] .button.is-admin-secondary-light {
+  background-color: var(--blue-opaque);
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-admin-secondary-light.is-inverted {
+  background-color: var(--iprateur-color-text);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-light.is-inverted:hover,
+.button.is-admin-secondary-light.is-inverted.is-hovered {
+  background-color: #f2f2f2
+}
+
+.button.is-admin-secondary-light.is-inverted[disabled],
+fieldset[disabled] .button.is-admin-secondary-light.is-inverted {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none;
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-light.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-secondary-light.is-outlined {
+  background-color: transparent;
+  border-color: var(--blue-opaque);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-light.is-outlined:hover,
+.button.is-admin-secondary-light.is-outlined.is-hovered,
+.button.is-admin-secondary-light.is-outlined:focus,
+.button.is-admin-secondary-light.is-outlined.is-focused {
+  background-color: var(--blue-opaque);
+  border-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light.is-outlined.is-loading::after {
+  border-color: transparent transparent var(--blue-opaque) var(--blue-opaque) !important
+}
+
+.button.is-admin-secondary-light.is-outlined.is-loading:hover::after,
+.button.is-admin-secondary-light.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-secondary-light.is-outlined.is-loading:focus::after,
+.button.is-admin-secondary-light.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-secondary-light.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-secondary-light.is-outlined {
+  background-color: transparent;
+  border-color: var(--blue-opaque);
+  box-shadow: none;
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-light.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-light.is-inverted.is-outlined:hover,
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-hovered,
+.button.is-admin-secondary-light.is-inverted.is-outlined:focus,
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-admin-secondary-light.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--blue-opaque) var(--blue-opaque) !important
+}
+
+.button.is-admin-secondary-light.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-secondary-light.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark {
+  background-color: var(--blue-opaque);
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark:hover,
+.button.is-admin-secondary-dark.is-hovered {
+  background-color: #60778d;
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark:focus,
+.button.is-admin-secondary-dark.is-focused {
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark:focus:not(:active),
+.button.is-admin-secondary-dark.is-focused:not(:active) {
+  box-shadow: 0 0 0 .125em rgba(101, 125, 149, .25)
+}
+
+.button.is-admin-secondary-dark:active,
+.button.is-admin-secondary-dark.is-active {
+  background-color: var(--iprateur-button-background-hover-color);
+  border-color: transparent;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark[disabled],
+fieldset[disabled] .button.is-admin-secondary-dark {
+  background-color: var(--blue-opaque);
+  border-color: transparent;
+  box-shadow: none
+}
+
+.button.is-admin-secondary-dark.is-inverted {
+  background-color: var(--iprateur-color-text);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-dark.is-inverted:hover,
+.button.is-admin-secondary-dark.is-inverted.is-hovered {
+  background-color: #f2f2f2
+}
+
+.button.is-admin-secondary-dark.is-inverted[disabled],
+fieldset[disabled] .button.is-admin-secondary-dark.is-inverted {
+  background-color: var(--iprateur-color-text);
+  border-color: transparent;
+  box-shadow: none;
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-dark.is-loading::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-secondary-dark.is-outlined {
+  background-color: transparent;
+  border-color: var(--blue-opaque);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-dark.is-outlined:hover,
+.button.is-admin-secondary-dark.is-outlined.is-hovered,
+.button.is-admin-secondary-dark.is-outlined:focus,
+.button.is-admin-secondary-dark.is-outlined.is-focused {
+  background-color: var(--blue-opaque);
+  border-color: var(--blue-opaque);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark.is-outlined.is-loading::after {
+  border-color: transparent transparent var(--blue-opaque) var(--blue-opaque) !important
+}
+
+.button.is-admin-secondary-dark.is-outlined.is-loading:hover::after,
+.button.is-admin-secondary-dark.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-secondary-dark.is-outlined.is-loading:focus::after,
+.button.is-admin-secondary-dark.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--iprateur-color-text) var(--iprateur-color-text) !important
+}
+
+.button.is-admin-secondary-dark.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-secondary-dark.is-outlined {
+  background-color: transparent;
+  border-color: var(--blue-opaque);
+  box-shadow: none;
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-dark.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  color: var(--iprateur-color-text)
+}
+
+.button.is-admin-secondary-dark.is-inverted.is-outlined:hover,
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-hovered,
+.button.is-admin-secondary-dark.is-inverted.is-outlined:focus,
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-focused {
+  background-color: var(--iprateur-color-text);
+  color: var(--blue-opaque)
+}
+
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-loading:hover::after,
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-loading.is-hovered::after,
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-loading:focus::after,
+.button.is-admin-secondary-dark.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent var(--blue-opaque) var(--blue-opaque) !important
+}
+
+.button.is-admin-secondary-dark.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-admin-secondary-dark.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: var(--iprateur-color-text);
+  box-shadow: none;
+  color: var(--iprateur-color-text)
+}
+
+.button.is-small {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.button.is-normal {
+  font-size: 1rem
+}
+
+.button.is-medium {
+  font-size: 1.25rem
+}
+
+.button.is-large {
+  font-size: 1.5rem
+}
+
+.button[disabled],
+fieldset[disabled] .button {
+  border-color: #dbdbdb;
+  box-shadow: none;
+  opacity: .5
+}
+
+.button.is-fullwidth {
+  display: flex;
+  width: 100%
+}
+
+.button.is-loading {
+  color: transparent !important;
+  pointer-events: none
+}
+
+.button.is-loading::after {
+  position: absolute;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute !important
+}
+
+.button.is-static {
+  background-color: #f5f5f5;
+  border-color: #dbdbdb;
+  color: #7a7a7a;
+  box-shadow: none;
+  pointer-events: none
+}
+
+.button.is-rounded {
+  border-radius: 290486px;
+  padding-left: 1em;
+  padding-right: 1em
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start
+}
+
+.buttons .button {
+  margin-bottom: .5rem
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-right: .5rem
+}
+
+.buttons:last-child {
+  margin-bottom: -0.5rem
+}
+
+.buttons:not(:last-child) {
+  margin-bottom: 1rem
+}
+
+.buttons.are-small .button:not(.is-normal):not(.is-medium):not(.is-large) {
+  border-radius: 2px;
+  font-size: .75rem
+}
+
+.buttons.are-medium .button:not(.is-small):not(.is-normal):not(.is-large) {
+  font-size: 1.25rem
+}
+
+.buttons.are-large .button:not(.is-small):not(.is-normal):not(.is-medium) {
+  font-size: 1.5rem
+}
+
+.buttons.has-addons .button:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0
+}
+
+.buttons.has-addons .button:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  margin-right: -1px
+}
+
+.buttons.has-addons .button:last-child {
+  margin-right: 0
+}
+
+.buttons.has-addons .button:hover,
+.buttons.has-addons .button.is-hovered {
+  z-index: 2
+}
+
+.buttons.has-addons .button:focus,
+.buttons.has-addons .button.is-focused,
+.buttons.has-addons .button:active,
+.buttons.has-addons .button.is-active,
+.buttons.has-addons .button.is-selected {
+  z-index: 3
+}
+
+.buttons.has-addons .button:focus:hover,
+.buttons.has-addons .button.is-focused:hover,
+.buttons.has-addons .button:active:hover,
+.buttons.has-addons .button.is-active:hover,
+.buttons.has-addons .button.is-selected:hover {
+  z-index: 4
+}
+
+.buttons.has-addons .button.is-expanded {
+  flex-grow: 1;
+  flex-shrink: 1
+}
+
+.buttons.is-centered {
+  justify-content: center
+}
+
+.buttons.is-centered:not(.has-addons) .button:not(.is-fullwidth) {
+  margin-left: .25rem;
+  margin-right: .25rem
+}
+
+.buttons.is-right {
+  justify-content: flex-end
+}
+
+.buttons.is-right:not(.has-addons) .button:not(.is-fullwidth) {
+  margin-left: .25rem;
+  margin-right: .25rem
+}
+
+.container {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto
+}
+

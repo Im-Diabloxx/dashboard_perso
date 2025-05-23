@@ -1,0 +1,238 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --peacock: #067790;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #029AC1;
+  --secondary: #fff;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --disable: #646462;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  --iprateur-color-blue: #00a4c3;
+  --iprateur-color-black: black;
+  --iprateur-color-white: white;
+  --iprateur-color-kiplink-blue: #00a4c3;
+  --iprateur-color-white-dark: #dfdfdf;
+  --iprateur-color-white-middle: #efefef;
+  --iprateur-color-white-light: ;
+  --iprateur-color-blue-light: #d8e4e9;
+  --iprateur-color-black-dark: #333333;
+  --iprateur-color-black-middle: #444444;
+  --iprateur-color-black-light: #555555;
+  --iprateur-color-black-old-dashboard: #4e4e4e;
+  --iprateur-color-black-old-maing-bg: #d9d9d9;
+  --iprateur-color-white-menu: #d7d7d7;
+  --iprateur-color-white-submenu: #e6e6e6;
+  --iprateur-color-white-main: #f5f5f5;
+  --iprateur-color-white-main-border: #e0e0e0;
+  --iprateur-color-black-main-border: #141414;
+  --iprateur-color-submenu-border-light: rgba(150, 150, 150, 0.5);
+  --iprateur-color-submenu-border-dark: rgba(151, 144, 144, 0.2);
+  --iprateur-color-menu-background-light: var(--iprateur-color-white-menu/*--iprateur-color-blue*/);
+  --iprateur-color-menu-background-dark: var(--iprateur-color-black);
+  --iprateur-color-menu-text-light: var(--iprateur-color-black);
+  --iprateur-color-menu-text-dark: var(--iprateur-color-white);
+  --iprateur-color-submenu-text-light: var(--iprateur-color-black);
+  --iprateur-color-submenu-text-dark: var(--iprateur-color-white);
+  --iprateur-color-submenu-title-bg-light: color-mix(in srgb, var(--iprateur-color-white-submenu), black 2%);
+  --iprateur-color-submenu-title-bg-dark: color-mix(in srgb, var(--iprateur-color-submenu-background-dark), black 10%);
+  --iprateur-color-submenu-background-light: var(--iprateur-color-white-submenu/*--iprateur-color-white-light*/);
+  --iprateur-color-submenu-background-dark: #272727;
+  --iprateur-color-submenu-select-bg-light: color-mix(in srgb, var(--iprateur-color-submenu-background-light), black 20%);
+  --iprateur-color-submenu-select-bg-dark: #424242;
+  --iprateur-color-main-title-bg-light: color-mix(in srgb, var(--iprateur-color-white-main), black 2%);
+  --iprateur-color-main-title-bg-dark: color-mix(in srgb, var(--iprateur-color-main-background-dark), black 10%);
+  --iprateur-color-main-title-text-light: var(--iprateur-color-black);
+  --iprateur-color-main-title-text-dark: var(--iprateur-color-white);
+  --iprateur-color-main-background-light: var(--iprateur-color-white-main/*--iprateur-color-blue-light*/);
+  --iprateur-color-main-background-dark: var(--iprateur-color-black-dark);
+  --iprateur-color-main-section1-bg-light: var(--iprateur-color-white-light);
+  --iprateur-color-main-section1-bg-dark: var(--iprateur-color-black-light);
+  --iprateur-color-main-section1-text-light: var(--iprateur-color-black);
+  --iprateur-color-main-section1-text-dark: var(--iprateur-color-white);
+  --iprateur-color-main-section1-border-light: var(--iprateur-color-white-main-border);
+  --iprateur-color-main-section1-border-dark: var(--iprateur-color-black-main-border);
+  --iprateur-color-main-section1-high-bg-light: #f4f4f4;
+  --iprateur-color-main-section1-high-border-light: #ededed;
+  --iprateur-color-main-section1-high-bg-dark: #4d4d4d;
+  --iprateur-color-main-section1-high-border-dark: #3c3c3c;
+  --iprateur-color-popup-bg-light: rgba(255, 255, 255, 1);
+  --iprateur-color-popup-bg-dark: rgba(0, 0, 0, 1);
+  --iprateur-color-general-text-light: var(--iprateur-color-black);
+  --iprateur-color-general-text-dark: var(--iprateur-color-white);
+  --iprateur-color-general-placeholder-light: #7373739c;
+  --iprateur-color-general-placeholder-dark: #FFFFFF80;
+
+  --iprateur-color-text-light: #ffffff;
+  --iprateur-color-text-dark: black;
+
+
+  --table-color-light: black;
+  --table-background-color-light: red;
+  --table-color-dark: white;
+  --table-background-color-dark: blue;
+  --blue-opaque-light: white;
+  --blue-opaque-dark: #657d95;
+
+  --section-light: #f5f5f5;
+  --section-dark: #2f3b52;
+
+  --inner-section-light: #f5f5f5;
+  --inner-section-dark: #2f3b52;
+
+  --table-head-color-light: #10151e;
+  --table-head-color-dark: #10151e;
+
+  --iprateur-nav-header-light: transparent;
+  --iprateur-nav-header-dark: #242e42;
+
+  --iprateur-light-header-background-color: color-mix(in srgb, #f5f5f5, black 2%);
+  --iprateur-light-menu-background-color: color-mix(in srgb, #f5f5f5, black 2%);
+  --iprateur-light-background-color: #f5f5f5;
+
+  --iprateur-delete-button: #cfd7db;
+
+  --iprateur-font-size-giga: 200px;
+  --iprateur-font-size-xxl: 40px;
+  --iprateur-font-size-xl: 32px;
+  --iprateur-font-size-l: 24px;
+  --iprateur-font-size-m: 16px;
+  --iprateur-font-size-s: 12px;
+
+  --kp-color-general-placeholder: red;
+  --kp-color-main-section1-border: purple;
+
+  --kp-color-popup-bg: green;
+  --kp-color-submenu-select-bg: orange;
+
+
+  background-color: #28303f;
+  color: #cfd7db;
+  min-height: 100vh;
+}
+
+.light-mode {
+  --blue-opaque: var(--blue-opaque-light);
+  --section: var(--section-light);
+  --inner-section: var(--inner-section-light);
+  --iprateur-header-bottom-color: transparent;
+  --iprateur-nav-header: var(--iprateur-light-header-background-color);
+  --iprateur-menu-background-color: var(--iprateur-light-menu-background-color);
+
+  --table-head-color: var(--table-head-color-light);
+  --iprateur-color-text: var(--iprateur-color-text-dark);
+  --iprateur-interface-background: var(--iprateur-light-background-color);
+  --iprateur-kiplink-logo: url(/static/img/logo-blue.png);
+  --iprateur-login-border: var(--iprateur-light-background-color);
+  --iprateur-login-background: rgb(210 211 215 / 80%);
+  --iprateur-important-button-color: #00a4c3;
+  --iprateur-important-button-text-color: white;
+  --iprateur-important-button-background-color: white;
+  --iprateur-button-background-hover-color: var(--iprateur-color-blue-light);
+  --iprateur-important-animation-button-color: #00a4c3;
+  --iprateur-list-background-color: white;
+  --iprateur-menu-list-background-color: var(--iprateur-color-blue-light);
+  --iprateur-menu-list-border-color: var(--iprateur-color-kiplink-blue);
+
+  --iprateur-card-hover: var(--iprateur-color-blue-light);
+  --iprateur-box-hover: var(--iprateur-color-blue-light);
+  --iprateur-select-bg-color: #bebebe;
+
+  --iprateur-draw-bg-color: #a7a7a7;
+
+  --iprateur-tickets-subtitle-color: black;
+
+  --iprateur-color-button : var(--iprateur-color-kiplink-blue);
+  --iprateur-messages-from-background-color : var(--iprateur-color-blue-light);
+
+
+  --iprateur-border-message-color: black;
+  --iprateur-background-message-color: var(--iprateur-color-main-background-light);
+
+  --iprateur-background-message-block-color: var(--iprateur-menu-background-color);
+  --iprateur-delete-button: #cfd7db;
+
+  --iprateur-icon-manage: var(--iprateur-color-kiplink-blue);
+  --iprateur-field-border: #a7a7a7;
+
+  --iprateur-card-shop-background-color: transparent;
+  --iprateur-card-shop-hover-background-color: var(--iprateur-color-blue-light);
+
+  background-color: var(--iprateur-light-background-color);
+
+  color: black;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  --blue-opaque: var(--blue-opaque-dark);
+  --section: #2f3b52;
+  --inner-section: var(--inner-section-dark);
+  --table-head-color: var(--table-head-color-dark);
+  --iprateur-color-text: var(--iprateur-color-text-light);
+  --iprateur-header-bottom-color: transparent;
+  --iprateur-nav-header: var(--iprateur-nav-header-dark);
+  --iprateur-menu-background-color: #2f3b52;
+
+  --iprateur-interface-background: #28303f;
+  --iprateur-kiplink-logo: url(/static/img/LOGO.png);
+  --iprateur-login-border: rgba(36, 46, 66, 0.8);
+  --iprateur-login-background: rgba(36, 46, 66, .8);
+  --iprateur-important-button-color: #657d95;
+  --iprateur-important-button-text-color: white;
+  --iprateur-important-button-background-color: #657d95;
+  --iprateur-button-background-hover-color: #5b7086;
+  --iprateur-important-animation-button-color: #3f58a1;
+  --iprateur-list-background-color: #3273dc;
+  --iprateur-menu-list-background-color: #3e4e6c;
+  --iprateur-menu-list-border-color: var(--iprateur-color-kiplink-blue);
+  --iprateur-tickets-subtitle-color: #cfd7db;
+
+  --iprateur-card-hover: rgb(47, 59, 82);
+  --iprateur-box-hover: #384762;
+  --iprateur-select-bg-color:#49566e;
+
+  --iprateur-draw-bg-color: #f1f1f1;
+
+  --iprateur-messages-from-background-color : #475061;
+
+  --iprateur-color-button : #ff4d4d;
+
+  --iprateur-border-message-color: rgba(0, 0, 0, .2);
+  --iprateur-background-message-color:  rgba(0, 0, 0, .2);
+
+  --iprateur-background-message-block-color: rgba(255, 255, 255, .03);
+
+  --iprateur-delete-button: #cfd7db;
+
+  --iprateur-icon-manage: #cfd7db;
+
+  --iprateur-field-border: #475061;
+
+  --iprateur-card-shop-background-color: rgb(47, 59, 82);
+  --iprateur-card-shop-hover-background-color: #657d95;
+
+  background-color: #28303f;
+  color: #cfd7db;
+  min-height: 100vh;
+}
